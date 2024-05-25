@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:3000');
+const socket = io('https://ed0b-105-73-96-220.ngrok-free.app');
 
 const App = () => {
   const [messages, setMessages] = useState<string[]>([]);
