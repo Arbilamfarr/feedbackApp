@@ -31,7 +31,7 @@ const App = () => {
           value={newMessage}
           onChange={(e) => setNewMessage(e.target.value)}
         />
-        <button onClick={sendMessage}>Send</button>
+        <button onClick={sendMessage} style={{ background: "#dd3545", color: "#fff" }}>Send</button>
       </div>
     </div>
   );
